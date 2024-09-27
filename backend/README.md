@@ -4,7 +4,7 @@
 
 Provide api for frontend. Use the following questions as a guide:
 
-## Table of Contents (Optional)
+## Table of Contents
 
 - [Getting Started](#getting-started)
     - [Technology](#technology)
