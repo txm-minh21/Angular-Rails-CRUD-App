@@ -22,7 +22,7 @@ Follow the instructions below to set up the project on your local machine for de
 
 ### Technology
 
-Angular
+Angular 16
 
 ### Installation
 
