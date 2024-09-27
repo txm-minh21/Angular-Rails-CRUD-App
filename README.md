@@ -4,7 +4,7 @@
 
 Create a basic app CRUD with Angular and Rails
 
-## Table of Contents (Optional)
+## Table of Contents
  
 - [Angular and Rails CRUD App](#angular-and-rails-crud-app)
   - [Description](#description)
