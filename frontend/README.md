@@ -1,27 +1,103 @@
-# Frontend
+# Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+## Description
 
-## Development server
+Create a basic app CRUD with Angular
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Table of Contents (Optional)
+ 
+- [Angular](#angular)
+  - [Description](#description)
+  - [Table of Contents (Optional)](#table-of-contents-optional)
+  - [Getting Started](#getting-started)
+    - [Technology](#technology)
+    - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Contact](#contact)
 
-## Code scaffolding
+## Getting Started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Follow the instructions below to set up the project on your local machine for development and testing purposes.
 
-## Build
+### Technology
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Angular
 
-## Running unit tests
+### Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Clone the repository:
 
-## Running end-to-end tests
+```
+  git clone git remote add origin git@github.com:txm-minh21/Angular-Rails-CRUD-App.git
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. Navigate to the project directory:
+```
+  cd frontend
+```
+  
+3. Build and package each component with Maven:
+```
+  ng serve
+```
 
-## Further help
+## Usage
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Generate new component
+```
+  ng generate component [name]
+```
+Generate file.html, file.css, file.spec.ts, file.ts
+
+2. Generate new service
+```
+  ng generate service [name]
+```
+
+3. Config to call API 
+
+-  create new file proxy.config.json
+    ```  
+    {
+      "/api/*": {
+        "target": "http://127.0.0.1:3000/",
+        "secure": false,
+        "logLevel": "debug"
+      }
+    }
+    ```
+
+- Add file proxy.config.json to angular.json
+    ```
+    "serve": 
+      {
+        "options": {
+          "browserTarget": "frontend:build",
+          "proxyConfig": "src/proxy.config.json"
+        },
+      },
+    ```
+- Import HttpClientModule (to call api) and ReactiveFormsModule, FormsModule (to create/adit form) in app.module.ts
+  ``` 
+    import { HttpClientModule } from '@angular/common/http';
+    import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+
+    imports: [
+      HttpClientModule,
+      ReactiveFormsModule,
+      FormsModule
+    ],
+  ```
+
+
+## Contributing
+
+Contributions are welcome! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to this project.
+
+## Contact
+
+[TxmMinh] - [xuanminh2107@gmail.com]
+
+Project Link: [rails-angular](git@github.com:txm-minh21/Angular-Rails-CRUD-App.git)
+ 
