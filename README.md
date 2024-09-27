@@ -20,9 +20,9 @@ Angular + Rails + Sqlite 5
 
 ## Usage
 
-* Choose folder backend to see detail information for rails
+* Choose folder [backend](https://github.com/txm-minh21/Angular-Rails-CRUD-App/tree/main/backend) to see detail information for rails
   
-* Choose folder frontend to see detail information for angular
+* Choose folder [frontend](https://github.com/txm-minh21/Angular-Rails-CRUD-App/tree/main/frontend) to see detail information for angular
 
 ## Contributing
 
