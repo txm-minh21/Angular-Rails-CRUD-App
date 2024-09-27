@@ -32,5 +32,5 @@ Contributions are welcome! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) fo
 
 [TxmMinh] - [xuanminh2107@gmail.com]
 
-Project Link: [rails-angular](git@github.com:txm-minh21/Angular-Rails-CRUD-App.git)
+Project Link: ![rails-angular](git@github.com:txm-minh21/Angular-Rails-CRUD-App.git)
  
