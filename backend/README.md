@@ -46,9 +46,9 @@ Ruby on Rails
 
 Create api at folder controller/api/v1/article_controller:
 
-Use render to response API Json
+    Use render to response API Json
 
-Config for routes.rb at config
+Config for routes.rb at /config
 
 ### Note
 ```
