@@ -4,11 +4,11 @@
 
 Create a basic app CRUD with Angular
 
-## Table of Contents (Optional)
+## Table of Contents
  
 - [Angular](#angular)
   - [Description](#description)
-  - [Table of Contents (Optional)](#table-of-contents-optional)
+  - [Table of Contents](#table-of-contents)
   - [Getting Started](#getting-started)
     - [Technology](#technology)
     - [Installation](#installation)
