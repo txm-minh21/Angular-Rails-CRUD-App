@@ -54,7 +54,7 @@ Config for routes.rb at /config
 ```
 articles: local variables 
 -> exists only within this method and cannot be accessed by other parts of the controller or view
--> **Use for API**
+-> **`Use for API`**
 @articles: instance variables
 -> accessible not only within this method but also in any corresponding view template
 
