@@ -16,7 +16,7 @@ Create a basic app CRUD with Angular and Rails
 
 ### Technology
 
-Angular + Rails + Sqlite 5
+Angular 16 + Rails + Sqlite 5
 
 ## Usage
 
